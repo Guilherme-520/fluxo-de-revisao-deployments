@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Swimlane Dashboard Design System - Modern, clean, professional */
+
+@layer base {
+  :root {
+    /* Dashboard Background */
+    --background: 248 250% 99%;
+    --foreground: 220 15% 25%;
+
+    /* Swimlane Colors - Soft and Professional */
+    --swimlane-csm: 220 15% 96%;
+    --swimlane-csm-accent: 220 15% 85%;
+    --swimlane-deploy: 45 95% 92%;
+    --swimlane-deploy-accent: 45 85% 78%;
+    --swimlane-manager: 210 90% 94%;
+    --swimlane-manager-accent: 210 85% 82%;
+
+    /* Process Box Colors */
+    --process-box: 0 0% 100%;
+    --process-box-border: 220 15% 88%;
+    --process-box-shadow: 220 15% 25% / 0.08;
+    --process-box-hover: 220 15% 98%;
+
+    /* Interactive Elements */
+    --primary: 220 90% 56%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 90% 48%;
+
+    /* Modal & Overlay */
+    --modal-overlay: 220 15% 15% / 0.75;
+    --modal-background: 0 0% 100%;
+    --modal-shadow: 220 15% 25% / 0.25;
+
+    /* Typography */
+    --text-primary: 220 15% 25%;
+    --text-secondary: 220 10% 45%;
+    --text-muted: 220 8% 65%;
+
+    /* Borders & Separators */
+    --border: 220 15% 88%;
+    --border-light: 220 15% 92%;
+
+    /* Export & Action Elements */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 220 15% 92%;
+    
+    --swimlane-csm: 220 15% 12%;
+    --swimlane-csm-accent: 220 15% 18%;
+    --swimlane-deploy: 45 25% 12%;
+    --swimlane-deploy-accent: 45 35% 18%;
+    --swimlane-manager: 210 25% 12%;
+    --swimlane-manager-accent: 210 35% 18%;
+    
+    --process-box: 220 15% 10%;
+    --process-box-border: 220 15% 25%;
+    --process-box-shadow: 220 15% 5% / 0.5;
+    --process-box-hover: 220 15% 15%;
+    
+    --primary: 220 90% 60%;
+    --primary-foreground: 220 15% 8%;
+    --primary-hover: 220 90% 65%;
+    
+    --modal-overlay: 220 15% 5% / 0.85;
+    --modal-background: 220 15% 10%;
+    --modal-shadow: 220 15% 5% / 0.5;
+    
+    --text-primary: 220 15% 92%;
+    --text-secondary: 220 10% 75%;
+    --text-muted: 220 8% 55%;
+    
+    --border: 220 15% 25%;
+    --border-light: 220 15% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
