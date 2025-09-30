@@ -16,6 +16,22 @@ export const SwimlaneHeader = ({ onExportPDF, onExportImage }: SwimlaneHeaderPro
         <p className="text-text-secondary mt-1">
           Processo integrado entre CSM, Deploy e Gerência
         </p>
+
+        <br />
+        <h2 className="text-text-primary mt-1">
+  <a
+    href="https://ibmsc.lightning.force.com/lightning/page/analytics?wave__assetType=lightningDashboard&wave__assetId=01ZKa000000skotMAA"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-xl shadow-md hover:bg-blue-700 transition">
+      Dashboard do ISC
+    </button>
+  </a>
+</h2>
+
+
+
       </div>
       
       <div className="flex gap-3">

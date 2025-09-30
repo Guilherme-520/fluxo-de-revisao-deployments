@@ -38,21 +38,21 @@ Pagina para ajudar a criar o BETO: https://guilow.github.io/beto.github.io/`
         title: "Envio do deploy para marcar FLM Judgment",
         description: "Registrar FLM Judgment",
         descricaoDetalhada:
-          "Preencher o formulário com o link do deploy para que seja marcado o FLM Judgment e entre em call (lista de deploy por quartil)",
+          "Preencher o formulário com o link do deploy para que seja marcado o FLM Judgment e entre em call (lista de deploy por quartil) \n Link: https://forms.monday.com/forms/b79c682af02ee2c0e563e0122a430568?r=use1",
       },
        {
         id: "csm-3",
         title: "Envio do deploy no formulário do Monday",
         description: "Registrar o deploy no Monday",
         descricaoDetalhada:
-          "Preencher o formulário com o link do deploy para que seja revisado pela turma do deploy.",
+          "Preencher o formulário com o link do deploy para que seja revisado pela turma do deploy. \n Link: https://forms.monday.com/forms/60db303e2caf3f8e4829bb3211709f25?r=use1",
       },
       {
         id: "csm-4",
         title: "Manter comunicação de revisão dentro do Monday",
         description: "Centralizar revisões no Monday",
         descricaoDetalhada:
-          "Acompanhar a revisão do deploy dentro do Monday. Caso seja necessário se comunicar com a turma do deploy ou gerentes, escrever nos comentários do post do deploy.",
+          "Acompanhar a revisão do deploy dentro do Monday. Caso seja necessário se comunicar com a turma do deploy ou gerentes, escrever nos comentários do post do deploy. \n link: https://ibm.monday.com/boards/9433974171 ",
       },
       {
         id: "csm-5",
