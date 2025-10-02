@@ -49,7 +49,7 @@ export const SwimlaneDashboard = () => {
 
       <div className="w-full h-screen">
   <img
-    src="../../public/fluxo.png"
+    src="/fluxo.png"
     alt="Fluxo"
     className="w-full h-full object-cover"
   />
