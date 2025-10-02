@@ -48,14 +48,13 @@ export const SwimlaneDashboard = () => {
         ))}
       </div>
 
-      <div className="w-full mt-6">
+    <div className="w-full mt-6">
   <img
-    src="/public/fluxo.png"
+    src="/Fluxo.png"
     alt="Fluxo"
     className="w-full h-auto rounded-xl shadow-lg"
   />
 </div>
-
 
       {/* Modal corrigido */}
       {selectedStep && selectedSwimlane && (
