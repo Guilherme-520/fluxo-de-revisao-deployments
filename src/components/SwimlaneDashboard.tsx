@@ -50,7 +50,7 @@ export const SwimlaneDashboard = () => {
 
       <div className="w-full mt-6">
   <img
-    src="/fluxo.png"
+    src="/public/fluxo.png"
     alt="Fluxo"
     className="w-full h-auto rounded-xl shadow-lg"
   />
