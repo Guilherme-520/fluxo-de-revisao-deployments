@@ -6,6 +6,7 @@ import { swimlaneData, ProcessStep } from "@/data/processData"; // ✅ Importa o
 import { exportAsImage, exportAsPDF } from "@/utils/exportUtils";
 
 
+
 export const SwimlaneDashboard = () => {
   const [selectedStep, setSelectedStep] = useState<ProcessStep | null>(null);
   const [selectedSwimlane, setSelectedSwimlane] = useState<'csm' | 'deploy' | 'manager' | null>(null);
@@ -47,11 +48,11 @@ export const SwimlaneDashboard = () => {
         ))}
       </div>
 
-      <div className="w-full h-screen">
+      <div className="w-full mt-6">
   <img
     src="/fluxo.png"
     alt="Fluxo"
-    className="w-full h-full object-cover"
+    className="w-full h-auto rounded-xl shadow-lg"
   />
 </div>
 
