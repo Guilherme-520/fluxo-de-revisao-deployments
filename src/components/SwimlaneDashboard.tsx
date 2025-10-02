@@ -47,6 +47,15 @@ export const SwimlaneDashboard = () => {
         ))}
       </div>
 
+      <div className="w-full h-screen">
+  <img
+    src="../../public/fluxo.png"
+    alt="Fluxo"
+    className="w-full h-full object-cover"
+  />
+</div>
+
+
       {/* Modal corrigido */}
       {selectedStep && selectedSwimlane && (
         <ProcessModal
