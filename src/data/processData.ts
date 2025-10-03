@@ -26,7 +26,6 @@ export const swimlaneData: SwimlaneData[] = [
 - Ajustar o nome do deploy conforme o padrão utilizado na nomenclatura;
 - Criar o "Order", o "Asset" e adicionar ao menos um "Client Sponsor" em "Deployment Contacts";
 - Verificar se o valor do deploy está correto;
-- Mudar o status para "Adopt";
 - Adicionar "Next steps" ao final do BETO (essa informação é necessária até a conclusão para "Closed - Value Confirmed").Definir o escopo do BETO. 
 
 Siga as instruções deste manual: https://ibm.ent.box.com/s/o3fqv33ucetmzanen0n7urlhcpmmvva8",
